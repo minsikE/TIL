@@ -1,2 +1,2 @@
-# collabo
-팀 프로젝트
+# TIL
+- Today I Learned
