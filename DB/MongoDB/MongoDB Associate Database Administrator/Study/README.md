@@ -25,6 +25,7 @@
   - Connecting to a MongoDB Database
 
 ### 2주차
+- 디스코드 채널 생성 및 초대 
 - 진도
   - MongoDB CRUD Operations: Insert and Find Documents 
   - MongoDB CRUD Operations: Replace and Delete Documents 
