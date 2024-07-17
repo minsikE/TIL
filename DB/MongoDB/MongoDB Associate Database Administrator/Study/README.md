@@ -25,7 +25,7 @@
   - Connecting to a MongoDB Database
 
 ### 2주차
-- 디스코드 채널 생성 및 초대
+- 디스코드 채널 생성 및 초대 
 - 진도
   - MongoDB CRUD Operations: Insert and Find Documents 
   - MongoDB CRUD Operations: Replace and Delete Documents 
@@ -42,19 +42,4 @@
   - MongoDB Database Administrator Tools 
   - Self-Managed Server Administration
 
-### 5주차
-- 진도
-  - MongoDB Database Metrics & Monitoring
-
-### 6주차
-- 진도
-  - Self-Managed Database Security
-
-### 7주차
-- 진도
-  - Replication in MongoDB
-
-### 8주차
-- 진도
-  - Self-Managed Backup & Recovery 
-  - Self-Managed Upgrades & Maintenance
+### 
