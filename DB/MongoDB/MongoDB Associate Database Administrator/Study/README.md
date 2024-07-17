@@ -42,4 +42,19 @@
   - MongoDB Database Administrator Tools 
   - Self-Managed Server Administration
 
-### 
+### 5주차
+- 진도
+  - MongoDB Database Metrics & Monitoring
+
+### 6주차
+- 진도
+  - Self-Managed Database Security
+
+### 7주차
+- 진도
+  - Replication in MongoDB
+
+### 8주차
+- 진도
+  - Self-Managed Backup & Recovery 
+  - Self-Managed Upgrades & Maintenance
