@@ -1,16 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  안녕하세요.http://localhost:8080/
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="menu">
+    <a v-for="(a,i) in menus" :key="(i)">{{(i)}}</a>
+  </div>
+  원룸샵
+  <div v-for="(item,index) in items" :key="index">
+    
+    <h4>{{item.id}}</h4>
+    <p>{{(item.price)}} 만원</p>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      menus : ['Home', 'Shop', 'About'],
+      items : [
+        {id : '역삼동 원룸', price: 50},
+        {id : '천호동 원룸', price: 70},
+        {id : '마포동 원룸', price: 90},
+      ],      
+    }
+  },
+  components: {    
   }
 }
 </script>
@@ -22,6 +36,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.menu {
+  background: darkslateblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+.menu a {
+  color: white;
+  padding: 10px;
 }
 </style>
