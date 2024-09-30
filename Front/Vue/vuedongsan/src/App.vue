@@ -11,13 +11,12 @@
   <div class="menu">
     <a v-for="(a,i) in menus" :key="(i)">{{(a)}}</a>
   </div>
-  
-  <div>
-    <img :src="원룸들[0].image" class="room-img">
-    <h4>{{원룸들[0].title}}</h4>
-    <p>{{원룸들[0].price}}원</p>
-    
-  </div> 
+
+  <div v-for="room in 원룸들" :key="room">
+    <img :src="room.image" class="room-img">
+    <h4>{{room.title}}</h4>
+    <p>{{room.price}}원</p>    
+  </div>
 
 </template>
 
